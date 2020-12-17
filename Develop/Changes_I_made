@@ -1,0 +1,51 @@
+I am going to list the changes in no particular order,
+just in the order that I thought to change them and write them down.
+
+Cheers.
+
+1.) Changed the title of the website from "website" to "Horiseon".
+
+2.) Made fairly descriptive "alt" tags for each of the images.
+
+3.) Replaced the <div class="header"> and <div class="footer> elements 
+    to the proper semantic tags <header> and <footer> respectively.
+    --Accordingly, erased all . from ".header" and ".footer" in CSS
+    
+
+4.) Consolidated A LOT of lines of code in CSS
+
+    --Firstly, I noted that the ".benefit-lead h3", ".benefit-brand h3", and
+      ".benefit-cost h3" classes ALL had the same style modifiers, so
+      I put them all in the same set of brackets.
+      
+
+    --Secondly, and likewise, the ".search-engine-optimization", ".online-reputation-management", 
+      and ".social-media-marketing" classes all had the same styling as well,
+      thus I also placed them under the same brackets.
+        ---Ditto for these tags' respective images' max heights and h2 styles.
+        --I also cut this content out from its original position in CSS and placed it directly below/After
+          ".content", since this is how it sequentially appears in HTML as well. More sensical for it to be there.
+
+        
+5.) I eventually noticed that the class tags for the search-engine-optimization, 
+    online-reputation-management, and social-media-marketing ON TOP OF the id tags, 
+    but since the id tags were needed for the links in the header to work properly, 
+    I went ahead and deleted the redundant class tags.
+
+6.) Deleted the CSS "header div ul {list-style-type: none}" since that's what the list
+    would do by default, so it didn't really need to be there.
+
+7.) Deleted the "header h1" from "header h1 .seo" in CSS since all that needed to be called
+    for the styling to work was just ".seo".
+
+8.) Sort of a nitpicky, personal preference thing, but to .benefit I added a "text-align: center;" style since the 
+    images in that block of content were also centered, and the text looked bad in a left-alignment. Yuck.
+
+9.) I'm not entirely sure how this happened, but I was CERTAIN that the "Search Engine Optimization" link in the header
+    was not working the first time I checked it, then I messed around with some entirely (seemingly) unrelated code, and
+    decided to check the links again and they all worked fine. It might have been due to me deleting the class tags 
+    and just leaving the id tags for the respective links...? I haven't the faintest idea lol. 
+
+
+    ????QUESTIONS AS I THINK OF THEM????
+
