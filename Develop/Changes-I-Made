@@ -1,5 +1,14 @@
-I am going to list the changes in no particular order,
-just in the order that I thought to change them and write them down.
+This is a list of changes I made to the index_original.html file, noted as index_changed
+I am going to list the changes in no particular order, just in the order that I thought to change them and write them down.
+
+**Note that I moved the changed html file (index_changed.html) into the css folder and renamed that folder
+css_and_html
+
+In hindsight, I should have just made in-line comments in the HTML and CSS files describing the changes I made.
+I realized this error halfway into the assignment, and decided to just plug away at this method, knowing that
+for future assignments I will be sure to make the in-line comments.
+
+Live and learn, I guess.
 
 Cheers.
 
@@ -46,6 +55,14 @@ Cheers.
     decided to check the links again and they all worked fine. It might have been due to me deleting the class tags 
     and just leaving the id tags for the respective links...? I haven't the faintest idea lol. 
 
+10.) Ended up changing the <div> that contained the <ul> of navigation links to <nav> since that made more logical/semantic
+     sense and resulted in a more simplified CSS. 
+
+11.) I deleted the "class=float-left and float-right" from the Search Engine Optimization (SEO), Online Reputation Management (ORM), 
+    and Social Media Marketing (SMM) ids, allowing me to omit the .float-left/right classes in the CSS. Instead, I clumped the two divs 
+    with float-left properties (SEO and SMM) into one {}, and put the other (ORM) into its own in CSS.
+
+I...I think that's everything...? *gulps*
 
     ????QUESTIONS AS I THINK OF THEM????
 

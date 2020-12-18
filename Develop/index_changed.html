@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
-
+<!--See READ ME for all the changes I made. In hindsight, perhaps I should have just made these 
+    green comments as I went along. Alas. Live and Learn.-->
 <body>
     <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <h1>Hori<span class="seo">seo</span>n</h1> <!--This seems fine. I don't know enough about <span> to dispute this.-->
+        <nav> <!--Changed this from <div> since this seems to make more logical/semantic sense.-->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,26 +23,27 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
-    <div class="hero"> </div> <!--thought about changing this to <img> but ended up with a white line between it and the header. -->
+        <!--Just below I changed this from <div> to img, included the src, and gave it an alt tag.-->
+    <img id="hero" src="./assets/images/digital-marketing-meeting.jpg" alt="Big background image of team in action!"> <!--Tried changing this to <img> but ended up with a white line between it and the header and I couldn't get rid of that. -->
     <div class="content">
         <div id="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Work desk with SEO notebook in center." class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" alt="Work desk with SEO notebook in center."> <!--class="float-left" />-->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
         <div id="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt="Laptop showing REPUTATION trending upward." class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" alt="Laptop showing REPUTATION trending upward."> <!-- class="float-right" />-->
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
         <div id="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" alt="Social media roundtable of ideas." class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" alt="Social media roundtable of ideas."> <!--class="float-left" />-->
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
